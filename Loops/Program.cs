@@ -24,7 +24,9 @@ namespace Loops
             for (int a = 0; a <= 10; a =a+2)
             {
                 Console.WriteLine(a);
-            }
+                Console.ReadLine();
+            } 
+
            
              
              
