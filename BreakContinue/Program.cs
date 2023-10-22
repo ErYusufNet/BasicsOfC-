@@ -10,6 +10,16 @@ namespace BreakContinue
     {
         static void Main(string[] args)
         {
+            //Break and continue
+             for(int a = 1; a<=10; a++)
+            {
+                if (a == 7)
+                {
+                    break;
+                }
+                Console.WriteLine("A's value is : " + a);
+            }
+             Console.ReadLine();
         }
     }
 }
