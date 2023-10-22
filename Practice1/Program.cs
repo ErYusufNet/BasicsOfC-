@@ -10,22 +10,26 @@ namespace Practice1
     {
         static void Main(string[] args)
         {
+            // Initialize a for loop that iterates from 1 to 10.
+            // 1'den 10'a kadar dönen bir for döngüsünü başlat.
             for (int i = 1; i <= 10; i++)
             {
-                // Dış döngü: Bu döngü, i adında bir tamsayı değişkenini 1'den 10'a kadar artırarak çalışır.
+                // Outer loop: This loop increments an integer variable named 'i' from 1 to 10.
 
+                // Initialize an inner for loop that also iterates from 1 to 10.
+                // Yine 1'den 10'a kadar dönen bir iç içe geçmiş for döngüsünü başlat.
                 for (int j = 1; j <= 10; j++)
                 {
-                    // İç içe geçmiş bir döngü: j adında bir tamsayı değişkenini 1'den 10'a kadar artırarak çalışır.
+                    // Nested loop: This loop increments an integer variable named 'j' from 1 to 10.
 
+                    // Print the product of 'i' and 'j' in the format "ixj=result" to the console.
+                    // "ixj=sonuç" biçiminde 'i' ve 'j' değişkenlerinin çarpım sonucunu ekrana yazdır.
                     Console.WriteLine(i + "x" + j + "=" + (i * j));
-                    // Console.WriteLine, ekrana bir metin çıktısı gönderir.
-                    // Bu satırda i ve j değişkenlerinin değerleri çarpılır ve sonuç metin haline getirilir.
-                    // Örneğin, i=2 ve j=3 için "2x3=6" gibi bir çıktı elde edilir.
                 }
             }
+            // Read a line of input to prevent the console window from closing immediately.
+            // Konsol penceresinin hemen kapanmasını önlemek için bir giriş satırını oku.
             Console.ReadLine();
-
         }
     }
 }
