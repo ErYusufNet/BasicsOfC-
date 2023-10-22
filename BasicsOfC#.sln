@@ -73,7 +73,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoops", "WhileLoops\Wh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhile", "DoWhile\DoWhile.csproj", "{0D187803-50CE-42A0-BE33-27C34AF85D2D}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakAndContinue", "BreakAndContinue\BreakAndContinue.csproj", "{9625D1CF-5A6B-46EB-952C-AF7FE6F0C956}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakAndContinue", "BreakContinue\BreakAndContinue.csproj", "{D67C6A07-9258-4703-B8EF-F47E54098E62}"
+>>>>>>> f0565bf38ef2116d35474c3f1bffd558ec7c2d2f
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
