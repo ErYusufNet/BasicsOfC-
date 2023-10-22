@@ -11,7 +11,7 @@ namespace Addition_Subtraction
         static void Main(string[] args)
         {
             // This program demonstrates basic addition and subtraction operations.
-
+            
             // Declare two integer variables 'number1' and 'number2' and calculate their sum.
             int number1 = 5;
             int number2 = 10;
